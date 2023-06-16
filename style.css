@@ -1,0 +1,29 @@
+/*Universal selector */ 
+* {
+   margin: 1px;
+}  
+
+body {
+    margin: 0;
+    font-family: 'Luminari';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    text-align: left;
+    background-color: #ffffff
+}
+
+.container-fluid {
+
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.navbar-brand {
+
+
+
+}

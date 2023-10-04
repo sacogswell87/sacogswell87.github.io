@@ -16,14 +16,12 @@ body {
 
 .container-fluid {
 
+    background-color: black;
+ 
 }
 
-h1 {
+h1, p {
     color: #ffffff;
 }
 
-.navbar-brand {
 
-
-
-}

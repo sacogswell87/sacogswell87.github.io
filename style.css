@@ -30,7 +30,7 @@ body {
 #mainpagecontent {
 
     background-color: black;
-    height:980px;
+    height: 1080px;
  
 }
 
@@ -44,7 +44,7 @@ body {
 
 footer .copyright {
 
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .terms-policy-lang {

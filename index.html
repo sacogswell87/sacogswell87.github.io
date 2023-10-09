@@ -6,21 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>It Goes 100 MPH</title>
     <meta name="description" content="itgoes100mph is currently under construction. Content will be available soon.">
-    <link rel="stylesheet" href="https://sacogswell87.github.io/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container-fluid pt-4" style="height: 1080px;">
-        <div class="row d-flex justify-content-center text-center">
-            <h1 class="mt-2">Welcome to itgoes100mph.com</h1>
-            <p>My website is currently under construction. Please check back later!</p>
+ 
+    <div class="container-fluid pt-3" id="mainpagecontent">
+           <!---start nav bar-->
+
+
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <a href="#" title="Go Home"><img class="home-logo" src="images/100mph-logo.png" alt="brandlogo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                      <!---start nav tabs--
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Aircraft</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Airplanes</a></li>
+                                <li><a class="dropdown-item" href="#">Jets</a></li>
+                                <li><a class="dropdown-item" href="#">Helicopters</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Vehicles</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cars & Trucks</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Remote
+                                Control</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">RC Airplanes</a></li>
+                                <li><a class="dropdown-item" href="#">RC Jets</a></li>
+                                <li><a class="dropdown-item" href="#">RC Cars & Trucks</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Creatures</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Animals</a></li>
+                                <li><a class="dropdown-item" href="#">Birds</a></li>
+                                <li><a class="dropdown-item" href="#">Insects</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>   <!---end nav tabs-->
+            
+            </div>
+        </nav>
+     <!---end nav bar -->
+        <body>
+            <div class="container pt-2">
+                <div class="row d-flex justify-content-center text-center">
+                    <h1>Welcome to itgoes100mph.com</h1>
+
+                    <p>You have arrived at my whimsical project website, where you can explore a variety of topics related to things that either reach or maintain a cruising speed of approximately 100 mph. From birds and vintage cars to RC jets, the range of random facts presented here knows no bounds. </p>
+                    
+                    <p>This website was inspired by one of my favorite <a href="https://www.youtube.com/watch?v=hx5Es0bnulM" target="_blank" title="Go to YouTube">YouTube videos that you can watch here.</a></p>
+
+                    <h2>My website is currently under construction. Please check back later!</h2>
+
+                    <div class="col-sm-12 pt-4">
+                        <img class="img-fluid" style="max-height: 450px;" src="images/FreeVector-Under-Construction.jpg" alt="coming soon">
+                    </div>
+                </div>
+            </div>
+        </body>
+    </div>  
+
+        <!---start footer--->
+
+
+        <footer class="container-fluid" id="footersection">
+
+            <div class="copyright"> <span>Copyright <span id="footeryear">2023</span> © itgoes100mph. All Rights Reserved.</span> 
+        
+            </div>
+                   <!---start legal links---
+
+            <div class="terms-policy-lang">
+                <span> <a href="#">Privacy Policy</a> | <a href="#">Cookies</a> | <a href="#">Terms of Use</a></span> 
+            </div>
+
+               <!---end legal links--->
+            
+                       <!---end footer--->
+
+            <script>
+
+                const d = new Date();
+
+                let year = d.getFullYear();
+
+                document.getElementById("footeryear").innerHTML = year;
+
+            </script>
+
+        </footer>
+        <!-- start YouTube Video--
+
+        <div class="container pb-4">
+            <div class="row">
                 <div class="col-sm-12">
-                    <img class="img-fluid" src="images/FreeVector-Under-Construction.jpg" alt="coming soon">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                            src="//www.youtube.com/embed/hx5Es0bnulM?autoplay=0&mute=1"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+        <!-- end YouTube Video-->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

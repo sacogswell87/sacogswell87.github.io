@@ -3,39 +3,28 @@
   
 }  
 
-body {
-    margin: 0;
-    font-family: 'Luminari';
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #000000;
-    text-align: left;
-    background-color: #ffffff
+#mainpagecontent {
+    background-color: black;
+    height: 1080px; 
+}
+
+h1, h2, p {
+    color: #ffffff;
+}
+
+#mainpagecontent, h1 {
+    padding-top: 1rem;
 }
 
 .home-logo {
-
     padding-right: 30px;
 }
 
 .navbar {
-
     background-color: transparent;
-
-
-}
-
-
-#mainpagecontent {
-
-    background-color: black;
-    height: 1080px;
- 
 }
 
 #footersection {
-
     background-color: rgba(0, 0, 0, 0.896);
     color: #646566;
     text-align: center;
@@ -43,26 +32,13 @@ body {
 }
 
 footer .copyright {
-
     padding: 2rem;
 }
 
 .terms-policy-lang {
-
     padding-bottom: 1rem;
 }
 
  .terms-policy-lang a {
-
     color: #646566;
 }
-
-h1, h2, p {
-    color: #ffffff;
-}
-
-h1, h2 {
-    padding: 1em 0em 1em 0em;
-}
-
-

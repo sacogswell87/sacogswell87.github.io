@@ -15,11 +15,11 @@ h1, h2, p {
 
 .navbar .container-fluid {
     align-items: start;
-    max-width: 2000px;
+    max-width: 1700px;
 }
 
 .navbar-nav .nav-item {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 #footersection {

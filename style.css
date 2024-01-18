@@ -17,29 +17,15 @@ h1 {
     padding-top: 5rem;
 }
 
-
 .navbar .container-fluid {
     align-items: start;
-    max-width: 1700px;
+    max-width: 1320px;
 }
 
 .navbar-nav .nav-item {
     font-size: 1.25rem;
 }
 
-@media (min-width: 575px) {
-    .navbar-brand {
-
-        margin-left: 2.25rem;
-        padding-left: 1.5rem;
-    }
-}
-
-@media (max-width: 575px) {
-    .navbar-brand {
-        padding: 0 1.5rem;
-    }
-}
 
 #footersection {
     background-color: rgba(0, 0, 0, 0.896);

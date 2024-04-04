@@ -1,6 +1,7 @@
 #mainpagecontent {
     background-color: black;
-    height: 1080px;
+    min-height: 900px;
+    padding-top: 7.5rem;
 }
 
 h1,
@@ -12,20 +13,26 @@ p {
     color: #ffffff;
 }
 
-#mainpagecontent,
-h1 {
-    padding-top: 5rem;
+#mainpagecontent h1 {
+    padding-top: 2rem;
 }
 
-.navbar .container-fluid {
-    align-items: start;
-    max-width: 1320px;
+/* nav styles */
+
+.navbar {
+    --bs-navbar-padding-y: 0rem;
+}
+
+.navbar-dark .container {
+    background-color: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.684);
 }
 
 .navbar-nav .nav-item {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 
+/* end nav styles */
 
 #footersection {
     background-color: rgba(0, 0, 0, 0.896);

@@ -7,59 +7,80 @@
     <title>It Goes 100 MPH</title>
     <link rel="icon" type="image/png" href="/images/favicon.ico">
     <meta name="description" content="itgoes100mph is currently under construction. Content will be available soon.">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://sacogswell87.github.io/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7868586f82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://sacogswell87.github.io/style.css">
 </head>
 
+<!---start nav bar-->
+<header>
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+        <div class="container py-2">
+            <a class="navbar-brand" href="/"><img src="images/100mph-logo-white.svg"
+                    height="75" alt="brandlogo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
 
-<div class="container-fluid pt-3" id="mainpagecontent">
-   <!---start nav bar-->
-
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark">            
-            <div class="container-fluid">
-                <a href="/" title="Go Home"> <img class="navbar-brand" src="/images/100mph-white-Large-cropped-01.svg" height="180" alt="brandlogo" /></a>
-                 <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Categories</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item disabled">Aircraft</a></li>
-                            <li><a class="dropdown-item disabled">Vehicles</a></li>
-                            <li><a class="dropdown-item disabled">Remote Control (RC)</a></li>
-                            <li><a class="dropdown-item disabled">Creatures</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item" style="text-align: right;">
-                        <a class="nav-link active" href="/"><i class="fa-solid fa-house"
-                                style="padding: 0 5px;"></i>Home</a></li>
-                    <li class="nav-item" style="text-align: right;">
-                        <a class="nav-link" href="/about.html"><i class="fa-solid fa-circle-info"
-                                style="padding: 0 5px 0 1px;"></i>About</a></li>
-                    <li class="nav-item" style="text-align: right;">
-                        <a class="nav-link" href="#"><i class="fa-regular fa-address-card"
-                                style="padding: 0 5px;"></i>Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!---end nav bar -->
-    </header>
-
-    <body>
-        <div class="container pt-5">
-
-            <div class="row d-flex justify-content-center text-center">
-                <h1>Website under construction </h1>
-                <h2>Please check back later!</h2>
-
-                <div class="col-sm-12 pt-4">
-                    <img class="img-fluid" style="max-height: 450px;" src="images/FreeVector-Under-Construction.jpg"
-                        alt="coming soon">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item disabled">Aircraft</a></li>
+                                <li><a class="dropdown-item disabled">Vehicles</a></li>
+                                <li><a class="dropdown-item disabled">Remote Control</a></li>
+                                <li><a class="dropdown-item disabled">Creatures</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/"><i
+                                    class="fa-regular fa-address-card pe-2"></i>Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </body>
-</div>
+    </nav>
+</header>
+
+<section id="mainpagecontent">
+
+    <div class="container mt-5">
+
+        <div class="row text-center">
+            <h1>Website under construction </h1>
+            <h2>Please check back later!</h2>
+        </div>
+        <div class="d-flex justify-content-center pt-4">
+                <img class="img-fluid" style="max-height: 500px;" src="images/FreeVector-Under-Construction.jpg"
+                    alt="coming soon">
+        </div>
+    </div>
+</section>
+
+
+
+
 
 <!---start footer--->
 
@@ -106,9 +127,5 @@
         <!-- end YouTube Video-->
 
 
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-</body>
 
 </html>

@@ -1,7 +1,13 @@
 #mainpagecontent {
+    position: static;
     background-color: black;
-    min-height: 900px;
-    padding-top: 7.5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url("/images/100mph-logo-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: start;
+    min-height: 1000px;
+    padding-top: 1rem;
+    margin-top: 4.5rem;
 }
 
 h1,
@@ -21,6 +27,7 @@ p {
 
 .navbar {
     --bs-navbar-padding-y: 0rem;
+    background-color: black;
 }
 
 .navbar-dark .container {
